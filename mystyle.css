@@ -1,0 +1,40 @@
+.Card {
+    padding: 10px;
+    margin: 10px;
+    background-color: tomato;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+
+#printList {
+    margin: 0;
+    padding-left: 0.1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 0.6fr));
+}
+
+.Card:hover {
+    background-color: skyblue;
+}
+
+.Inputs {
+    margin: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #35b4d4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.button:hover {
+    background-color: #0be35a;
+}
